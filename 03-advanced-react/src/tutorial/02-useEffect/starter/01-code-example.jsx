@@ -1,7 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const CodeExample = () => {
   const [value, setValue] = useState(0);
+
+  useEffect(() => {
+    console.log("Hi on first render");
+  }, []);
 
   return (
     <div>
