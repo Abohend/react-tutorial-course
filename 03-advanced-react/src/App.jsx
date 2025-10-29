@@ -1,8 +1,8 @@
-import Starter from "./tutorial/06-forms/starter/05-form-data";
+import Starter from "./tutorial/09-context-api/starter/context/Navbar";
 
 function App() {
     return (
-        <div className="container">
+        <div>
             <Starter />
         </div>
     );
