@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { data } from '../../../../data';
+
 import List from './List';
 const LowerState = () => {
-  const [people, setPeople] = useState(data);
+  
   const [count, setCount] = useState(0);
 
   return (
@@ -14,7 +14,7 @@ const LowerState = () => {
       >
         count {count}
       </button>
-      <List people={people} />
+      <List/>
     </section>
   );
 };
